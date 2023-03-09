@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Here is the creative ones</title>
+	<link rel = "stylesheet" href = "stylee.css">
+
+</head>
+<body>
+
+<div class = "hero">
+
+	<nav>
+		<img src = "images/menu.png" class=  "menu-img">
+				<img src = "images/p.jpg " class=  "logo">
+				<ul>
+
+<li><a href = "">home</a></li>
+<li><a href = "">search</a></li>
+
+<li><a href = "">contact</a></li>
+<div class="kinetic"></div>
+</ul>
+<button type = "button" onclick = "toggleBtn()"id="btn"><span></span></button>
+				
+						
+			</nav>
+		
+		<div class = "lamp-container">
+			<img src=  "images/lamp.png" class=  "lamp">
+			<a href = "index.html "  class=  "light" id="light">Search Bar
+		</div>
+
+		
+		<script>
+var btn = document.getElementById("btn");
+var light = document.getElementById("light");
+
+function toggleBtn(){
+	btn.classList.toggle("active");
+var x = light.classList.toggle("on");
+
+
+}
+		</script>
+	
+</body>
+</html>
